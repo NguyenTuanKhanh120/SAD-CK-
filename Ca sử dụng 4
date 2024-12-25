@@ -1,1 +1,13 @@
+1. Xác định các lớp phân tích cho ca sử dụng "Health Service Management"
+Các lớp phân tích:
+### HealthServiceManager: Đại diện cho vai trò quản lý dịch vụ.
+#### Vai trò: Gửi yêu cầu báo cáo.
 
+### ReportRequestHandler: Xử lý yêu cầu tạo báo cáo.
+#### Vai trò: Tiếp nhận yêu cầu, tìm kiếm dữ liệu liên quan.
+
+### PatientDataRepository: Kho dữ liệu bệnh nhân.
+#### Vai trò: Lưu trữ các hồ sơ bệnh nhân, cung cấp dữ liệu cho quá trình tạo báo cáo.
+
+### ReportGenerator: Sinh báo cáo từ dữ liệu được cung cấp.
+#### Vai trò: Tạo các báo cáo dựa trên yêu cầu.
